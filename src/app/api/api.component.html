@@ -1,0 +1,4 @@
+<input placeholder="Search By Zip Code" type="text" class="form-control" (input)="onSearchChange($event)">
+<button (click)="changeZip()">Find Zip</button>
+<h1>{{breweries.country}}</h1>
+<h1>{{breweries.places[0]["place name"]}}</h1>
